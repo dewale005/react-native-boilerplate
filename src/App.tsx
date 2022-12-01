@@ -27,7 +27,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-// const kkk = 'laeknkl';
+// const kkk = 'laeknkl';ain
 
 const Section: React.FC<PropsWithChildren<{ title: string }>> = ({
   children,
