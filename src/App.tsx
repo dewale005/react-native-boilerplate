@@ -59,7 +59,7 @@ const Section: React.FC<PropsWithChildren<{ title: string }>> = ({
 };
 
 const App: React.FC<any> = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const isDarkMode = useColorScheme() === 'light';
   const backgroundStyle: any = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
