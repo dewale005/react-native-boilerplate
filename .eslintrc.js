@@ -69,6 +69,7 @@ module.exports = {
         singleQuote: true,
         parser: 'flow',
         endOfLine: 'auto',
+        'no-inline-styles': false,
       },
     ],
     'import/extensions': [
@@ -82,5 +83,6 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'react-native/no-inline-styles': 0,
   },
 };

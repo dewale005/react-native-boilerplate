@@ -27,8 +27,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-// const kkk = 'laeknkl';ain
-
 const Section: React.FC<PropsWithChildren<{ title: string }>> = ({
   children,
   title,
@@ -74,6 +72,7 @@ const App: React.FC<any> = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Text>Hekko</Text>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
