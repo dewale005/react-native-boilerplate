@@ -1,0 +1,9 @@
+node_modules/
+
+commitlint.config.js
+
+metro.config.js
+
+babel.config.js
+
+.eslintrc.js
